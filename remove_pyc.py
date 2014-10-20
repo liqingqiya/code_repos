@@ -21,4 +21,4 @@ def remove_pyc(root=".", pattern="*.pyc"):
         # print file_full_name
 
 if __name__ == "__main__":
-  remove_pyc(root="/home/liqing/PROJECT/ccooa_sae")
+  remove_pyc(pattern="*~")
